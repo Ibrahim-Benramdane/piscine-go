@@ -1,0 +1,39 @@
+rm              remove
+
+ls              show
+
+touch           create file
+
+touch (-d)      date file/repo          95-05-01 --> 1995-05-01 00:00
+
+touch (-t)      date/hour file/repo     199505010002 --> 1995-05-01 00:02
+
+touch (-mht)    date/hour lien          199505010002 --> 1995-05-01 00:02
+
+mkdir           create repo
+
+ln -s           create lien
+
+chmod           permition(r4 w2 x1)
+
+tar -cf         compression file
+
+curl            importe lien
+
+curl -s         importe lien without dowload it
+
+jq              kt7dedlha chnu baghe tjbd mn lien
+
+jq -r           remove the quotes
+
+ls -l           show the files with details
+
+ls -t           show the files by order of editing
+
+ls -l | wc -l   count files
+
+find            find the files
+
+-exec sh -c 'basename {} .' \;   edit in files (present the files without something)
+             
+find .  | wc -l  count files including the sub-files
